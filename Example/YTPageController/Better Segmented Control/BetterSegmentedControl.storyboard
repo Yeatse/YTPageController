@@ -62,7 +62,7 @@
         <!--First View Controller-->
         <scene sceneID="ZjM-UP-p9H">
             <objects>
-                <viewController id="Ylw-4M-hB2" userLabel="First View Controller" sceneMemberID="viewController">
+                <viewController id="Ylw-4M-hB2" userLabel="First View Controller" customClass="YTFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qS3-FP-LOk"/>
                         <viewControllerLayoutGuide type="bottom" id="dPH-Nx-j8u"/>

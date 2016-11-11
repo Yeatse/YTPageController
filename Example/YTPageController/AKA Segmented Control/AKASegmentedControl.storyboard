@@ -45,7 +45,7 @@
         <!--First View Controller-->
         <scene sceneID="Er2-z6-wRj">
             <objects>
-                <viewController id="ir1-GN-hkf" userLabel="First View Controller" sceneMemberID="viewController">
+                <viewController id="ir1-GN-hkf" userLabel="First View Controller" customClass="YTFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="D87-1u-r0d"/>
                         <viewControllerLayoutGuide type="bottom" id="ige-kh-5ue"/>
