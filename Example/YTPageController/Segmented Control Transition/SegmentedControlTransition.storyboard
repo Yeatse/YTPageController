@@ -49,7 +49,7 @@
         <!--First View Controller-->
         <scene sceneID="wmO-rf-EgE">
             <objects>
-                <viewController id="Wgu-Hn-58C" userLabel="First View Controller" sceneMemberID="viewController">
+                <viewController id="Wgu-Hn-58C" userLabel="First View Controller" customClass="YTFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gp1-Fb-3Mb"/>
                         <viewControllerLayoutGuide type="bottom" id="IcS-fh-2nD"/>

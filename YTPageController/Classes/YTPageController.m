@@ -675,9 +675,15 @@ typedef NS_ENUM(NSInteger, YTPageTransitionStartReason) {
 
 - (void)configureWithViewController:(UIViewController *)childVC parentViewController:(UIViewController *)parentVC {
     [parentVC addChildViewController:childVC];
+    
+    // This line is required to trigger viewWillAppear: on childVC
+    // because childVC.view is not being added to parentVC.view directly
+    [childVC beginAppearanceTransition:YES animated:YES];
     [self.contentView addSubview:childVC.view];
     childVC.view.frame = self.contentView.bounds;
     childVC.view.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+
+    // no need to call endAppearanceTransition, this line will handle it.
     [childVC didMoveToParentViewController:parentVC];
 }
 
